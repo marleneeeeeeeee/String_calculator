@@ -14,4 +14,5 @@ describe('String Calculator', function() {
 	it ('should return 3 for input "1,2"', function() {
 		expect(calculator.add('1,2')).toEqual(3);
 	});
+	
 });
