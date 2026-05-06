@@ -23,5 +23,6 @@ describe('String Calculator', function() {
 		expect(calculator.add('1,27')).toEqual(28);
 	});
 
+
 	
 });
