@@ -37,4 +37,9 @@ describe('String Calculator', function() {
 	it ('should return 11111 for input "1,10,100,1000,10000"', function() {
 		expect(calculator.add("1,10,100,1000,10000")).toEqual(11111);	
 	});
+
+	//TC_8
+	it ('should return 1 for input "1,a"', function() {
+		expect(calculator.add("1,a")).toEqual(1);
+	});
 });
