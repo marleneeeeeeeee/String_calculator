@@ -34,7 +34,7 @@ describe('String Calculator', function() {
 	});
 
 	//TC_7
-	it ('should return 11111 for input „1,10,100,1000,10000"', function() {
-		expect(calculator.add('1,10,100,1000,10000')).toEqual(111111);	
+	it ('should return 11111 for input "1,10,100,1000,10000"', function() {
+		expect(calculator.add("1,10,100,1000,10000")).toEqual(11111);	
 	});
 });
