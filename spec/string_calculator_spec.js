@@ -27,5 +27,6 @@ describe('String Calculator', function() {
 	it ('should return 53 for input "15,17,21"', function() {
 		expect(calculator.add('15,17,21')).toEqual(53);
 	});
+
 	
 });
