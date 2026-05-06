@@ -7,5 +7,8 @@ StringCalculator.prototype.add = function(string_numbers) {
 	 else if (string_numbers.length > 0) {
 		result = parseInt(string_numbers);
 	}
+	else {
+		result = 0;
+	}
 	return result;
 };
