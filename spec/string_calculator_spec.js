@@ -28,5 +28,9 @@ describe('String Calculator', function() {
 		expect(calculator.add('15,17,21')).toEqual(53);
 	});
 
+	//TC_6
+	it ('should return 78 for input "1,5,27,45"', function() {
+		expect(calculator.add('1,5,27,45')).toEqual(78);
+	});
 	
 });
