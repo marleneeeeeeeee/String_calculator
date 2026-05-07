@@ -5,6 +5,10 @@ StringCalculator.prototype.add = function(string_numbers) {
     if(string_numbers.includes(',')) {
         var numbers = string_numbers.split(',');
         while (numbers.length > 0) {
+            if (!Number.isInteger(parseInt(numbers[0]))) {
+                numbers.shift();
+                continue;
+            }
             result += parseInt(numbers[0]);
             numbers.shift();
         }
