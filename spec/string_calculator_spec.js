@@ -42,5 +42,10 @@ describe('String Calculator', function() {
 	it ('should return 1 for input "1,a"', function() {
 		expect(calculator.add("1,a")).toEqual(1);
 	});
+	
+	//TC_9
+	it ('should return 1 for input "1,A"', function() {
+		expect(calculator.add("1,A")).toEqual(1);
+	});
 
 });
